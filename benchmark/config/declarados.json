@@ -1,0 +1,37 @@
+{
+  "_leia": "Dados declarados (seção 8.2 do roteiro) e pesos da matriz. Cada nota traz a fonte..",
+  "pesos": { "C1": 0.2978, "C2": 0.2978, "C3": 0.1578, "C4": 0.1578, "C5": 0.0888 },
+  "redes": ["sepolia", "fuji", "monad"],
+  "nomes": {
+    "sepolia": "Ethereum Sepolia",
+    "fuji": "Avalanche Fuji",
+    "monad": "Monad"
+  },
+  "versao_codigo": { "sepolia": "solidity", "fuji": "solidity", "monad": "solidity" },
+  "C2_M1_verificacao_formal": {
+    "solidity": { "nota": 1.0, "nivel": "Alto", "fonte": "https://docs.soliditylang.org/en/v0.8.24/smtchecker.html", "nota_fonte": "SMTChecker faz parte do compilador oficial, documentado e mantido" }
+  },
+  "C2_M3_confidencialidade": {
+    "sepolia": { "nota": 0.0, "nivel": "Baixo", "fonte": "docs/guia-integracao.md do projeto: qualquer pessoa lê os eventos na Sepolia" },
+    "fuji": { "nota": 0.0, "nivel": "Baixo", "fonte": "C-Chain pública" },
+    "monad": { "nota": 0.0, "nivel": "Baixo", "fonte": "Rede pública (documentação oficial da Monad)" }
+  },
+  "C5_compatibilidade_evm": {
+    "sepolia": { "nota": 1.0, "fonte": "implantação de 05/10/2026 e nova implantação do experimento (16/10/2026)" },
+    "fuji": { "nota": 1.0, "fonte": "implantado sem alteração em 16/10/2026" },
+    "monad": { "nota": 1.0, "fonte": "implantado sem alteração em 16/10/2026" }
+  },
+  "C2_M2_complexidade": {
+    "solidity": { "m_total": 49, "fonte": "analise/complexidade.py sobre src/ do commit 3347bf2" }
+  },
+  "C4_M2_infra_usd_mes": {
+    "_leia": "custo mensal = preço por hora × 730 × número de nós (seção 8.4). Preencher com provedor, instância, região e data.",
+    "sepolia": null, "fuji": null, "monad": null
+  },
+  "fallback_declarado": {
+    "_leia": "Usados só quando a rede não foi medida (plano alternativo, seção 10). Cada valor marca a célula como 'declarado'.",
+    "C3_latencia_s": {},
+    "C4_M1_ciclo_usd": {},
+    "C1_taxa_sucesso": {}
+  }
+}

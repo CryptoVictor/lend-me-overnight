@@ -1,0 +1,794 @@
+{
+  "gerado_utc": "2026-10-22T14:31:14+00:00",
+  "pesos": {
+    "C1": 0.2978,
+    "C2": 0.2978,
+    "C3": 0.1578,
+    "C4": 0.1578,
+    "C5": 0.0888
+  },
+  "precos_referencia": {
+    "sepolia": {
+      "gas_preco_wei": 81349300,
+      "cotacao_usd": 2422.04,
+      "cotacao_brl": 12262.45,
+      "amostras": 9,
+      "janela": [
+        "2026-10-16T22:38:49.632Z",
+        "2026-10-16T23:19:07.912Z"
+      ]
+    },
+    "fuji": {
+      "gas_preco_wei": 6771533049,
+      "cotacao_usd": 9.97,
+      "cotacao_brl": 50.48,
+      "amostras": 9,
+      "janela": [
+        "2026-10-16T22:38:49.632Z",
+        "2026-10-16T23:19:07.912Z"
+      ]
+    },
+    "monad": {
+      "gas_preco_wei": 103000000000,
+      "cotacao_usd": 0.02288692,
+      "cotacao_brl": 0.115873,
+      "amostras": 9,
+      "janela": [
+        "2026-10-16T22:38:49.632Z",
+        "2026-10-16T23:19:07.912Z"
+      ]
+    }
+  },
+  "brutos": {
+    "C1": {
+      "sepolia": 100.0,
+      "fuji": 100.0,
+      "monad": 100.0
+    },
+    "C3": {
+      "sepolia": 11.0395,
+      "fuji": 2.6445,
+      "monad": 0.987
+    },
+    "C4M1": {
+      "sepolia": 0.2961056685073103,
+      "fuji": 0.029025108408346,
+      "monad": 0.0014213300148800479
+    },
+    "C4M2": {},
+    "C2M2": {
+      "sepolia": 49,
+      "fuji": 49,
+      "monad": 49
+    }
+  },
+  "origens": {
+    "C1": {
+      "sepolia": "medido",
+      "fuji": "medido",
+      "monad": "medido"
+    },
+    "C3": {
+      "sepolia": "medido",
+      "fuji": "medido",
+      "monad": "medido"
+    },
+    "C4M1": {
+      "sepolia": "medido",
+      "fuji": "medido",
+      "monad": "medido"
+    },
+    "C4M2": {},
+    "C2M2": {
+      "sepolia": "medido",
+      "fuji": "medido",
+      "monad": "medido"
+    }
+  },
+  "notas": {
+    "C1": {
+      "sepolia": {
+        "valor": 1.0,
+        "origem": "medido"
+      },
+      "fuji": {
+        "valor": 1.0,
+        "origem": "medido"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "medido"
+      }
+    },
+    "C2": {
+      "sepolia": {
+        "valor": 0.6666666666666666,
+        "origem": "misto"
+      },
+      "fuji": {
+        "valor": 0.6666666666666666,
+        "origem": "misto"
+      },
+      "monad": {
+        "valor": 0.6666666666666666,
+        "origem": "misto"
+      }
+    },
+    "C3": {
+      "sepolia": {
+        "valor": 0.0,
+        "origem": "medido"
+      },
+      "fuji": {
+        "valor": 0.8351156428749067,
+        "origem": "medido"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "medido"
+      }
+    },
+    "C4": {
+      "sepolia": {
+        "valor": 0.0,
+        "origem": "medido"
+      },
+      "fuji": {
+        "valor": 0.9063276367699635,
+        "origem": "medido"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "medido"
+      }
+    },
+    "C5": {
+      "sepolia": {
+        "valor": 1.0,
+        "origem": "declarado"
+      },
+      "fuji": {
+        "valor": 1.0,
+        "origem": "declarado"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "declarado"
+      }
+    }
+  },
+  "medidas": {
+    "C2-M1": {
+      "sepolia": {
+        "valor": 1.0,
+        "origem": "declarado"
+      },
+      "fuji": {
+        "valor": 1.0,
+        "origem": "declarado"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "declarado"
+      }
+    },
+    "C2-M2": {
+      "sepolia": {
+        "valor": 1.0,
+        "origem": "medido"
+      },
+      "fuji": {
+        "valor": 1.0,
+        "origem": "medido"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "medido"
+      }
+    },
+    "C2-M3": {
+      "sepolia": {
+        "valor": 0.0,
+        "origem": "declarado"
+      },
+      "fuji": {
+        "valor": 0.0,
+        "origem": "declarado"
+      },
+      "monad": {
+        "valor": 0.0,
+        "origem": "declarado"
+      }
+    },
+    "C4-M1": {
+      "sepolia": {
+        "valor": 0.0,
+        "origem": "medido"
+      },
+      "fuji": {
+        "valor": 0.9063276367699635,
+        "origem": "medido"
+      },
+      "monad": {
+        "valor": 1.0,
+        "origem": "medido"
+      }
+    },
+    "C4-M2": {
+      "sepolia": {
+        "valor": null,
+        "origem": "pendente"
+      },
+      "fuji": {
+        "valor": null,
+        "origem": "pendente"
+      },
+      "monad": {
+        "valor": null,
+        "origem": "pendente"
+      }
+    }
+  },
+  "pontuacao": {
+    "sepolia": {
+      "minimo": 58.51333333333334,
+      "maximo": 58.51333333333334,
+      "contribuicao_conhecida": {
+        "C1": 29.78,
+        "C2": 19.853333333333335,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 8.88
+      },
+      "pendentes": [],
+      "completo": true
+    },
+    "fuji": {
+      "minimo": 85.99330828612939,
+      "maximo": 85.99330828612939,
+      "contribuicao_conhecida": {
+        "C1": 29.78,
+        "C2": 19.853333333333335,
+        "C3": 13.178124844566028,
+        "C4": 14.301850108230024,
+        "C5": 8.88
+      },
+      "pendentes": [],
+      "completo": true
+    },
+    "monad": {
+      "minimo": 90.07333333333334,
+      "maximo": 90.07333333333334,
+      "contribuicao_conhecida": {
+        "C1": 29.78,
+        "C2": 19.853333333333335,
+        "C3": 15.78,
+        "C4": 15.78,
+        "C5": 8.88
+      },
+      "pendentes": [],
+      "completo": true
+    }
+  },
+  "sensibilidade": [
+    {
+      "cenario": "Base",
+      "pontos": {
+        "sepolia": 58.51333333333334,
+        "fuji": 85.99330828612939,
+        "monad": 90.07333333333334
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S1 pesos iguais",
+      "pontos": {
+        "sepolia": 53.333333333333336,
+        "fuji": 88.16219892623074,
+        "monad": 93.33333333333334
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C1 +50%",
+      "pontos": {
+        "sepolia": 63.89009777468303,
+        "fuji": 87.80860674221375,
+        "monad": 91.35985145211362
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C1 −50%",
+      "pontos": {
+        "sepolia": 51.255238319038114,
+        "fuji": 83.54283666564373,
+        "monad": 88.33666235851643
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C2 +50%",
+      "pontos": {
+        "sepolia": 59.570023500739836,
+        "fuji": 83.48853246827056,
+        "monad": 87.03977717817043
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C2 −50%",
+      "pontos": {
+        "sepolia": 57.0869071397799,
+        "fuji": 89.37450548638552,
+        "monad": 94.16833117925822
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C3 +50%",
+      "pontos": {
+        "sepolia": 54.23425093459388,
+        "fuji": 85.81181824859803,
+        "monad": 90.79927086229802
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C3 −50%",
+      "pontos": {
+        "sepolia": 63.52549487931097,
+        "fuji": 86.2058906349434,
+        "monad": 89.22303043462527
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C4 +50%",
+      "pontos": {
+        "sepolia": 54.23425093459388,
+        "fuji": 86.33259184377087,
+        "monad": 90.79927086229802
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C4 −50%",
+      "pontos": {
+        "sepolia": 63.52549487931097,
+        "fuji": 85.59589971991572,
+        "monad": 89.22303043462527
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C5 +50%",
+      "pontos": {
+        "sepolia": 60.27703306523682,
+        "fuji": 86.5887670299975,
+        "monad": 90.49534022724372
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S2 C5 −50%",
+      "pontos": {
+        "sepolia": 56.585740198130324,
+        "fuji": 85.34251599636814,
+        "monad": 89.61211106460165
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S3 sem C1",
+      "pontos": {
+        "sepolia": 40.9190164245704,
+        "fuji": 80.05313056982253,
+        "monad": 85.8634766923004
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S3 sem C2",
+      "pontos": {
+        "sepolia": 55.05553973227001,
+        "fuji": 94.18965387752215,
+        "monad": 100.0
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S3 sem C3",
+      "pontos": {
+        "sepolia": 69.47676719702366,
+        "fuji": 86.4583037776815,
+        "monad": 88.21340932478428
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S3 sem C4",
+      "pontos": {
+        "sepolia": 69.47676719702366,
+        "fuji": 85.12403013286554,
+        "monad": 88.21340932478428
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    },
+    {
+      "cenario": "S3 sem C5",
+      "pontos": {
+        "sepolia": 54.470295580918936,
+        "fuji": 84.62830145536587,
+        "monad": 89.10594088381622
+      },
+      "ordem": [
+        "monad",
+        "fuji",
+        "sepolia"
+      ],
+      "primeiro_mudou": false
+    }
+  ],
+  "alternativas": [
+    {
+      "descricao": "Custo da Ethereum com o gas das regras atuais da mainnet (pré-Glamsterdam, medido na Fuji), em vez do gas medido na Sepolia",
+      "pontos": {
+        "sepolia": {
+          "minimo": 58.51333333333334,
+          "maximo": 58.51333333333334,
+          "contribuicao_conhecida": {
+            "C1": 29.78,
+            "C2": 19.853333333333335,
+            "C3": 0.0,
+            "C4": 0.0,
+            "C5": 8.88
+          },
+          "pendentes": [],
+          "completo": true
+        },
+        "fuji": {
+          "minimo": 82.24150743389922,
+          "maximo": 82.24150743389922,
+          "contribuicao_conhecida": {
+            "C1": 29.78,
+            "C2": 19.853333333333335,
+            "C3": 13.178124844566028,
+            "C4": 10.550049255999859,
+            "C5": 8.88
+          },
+          "pendentes": [],
+          "completo": true
+        },
+        "monad": {
+          "minimo": 90.07333333333334,
+          "maximo": 90.07333333333334,
+          "contribuicao_conhecida": {
+            "C1": 29.78,
+            "C2": 19.853333333333335,
+            "C3": 15.78,
+            "C4": 15.78,
+            "C5": 8.88
+          },
+          "pendentes": [],
+          "completo": true
+        }
+      }
+    }
+  ],
+  "origem_por_rede": {
+    "sepolia": "testnet",
+    "fuji": "testnet",
+    "monad": "testnet"
+  },
+  "detalhes": {
+    "sepolia": {
+      "latencia_t1": {
+        "n": 30,
+        "media": 11.345899999999999,
+        "mediana": 11.0395,
+        "p95": 11.975399999999999,
+        "maximo": 22.017,
+        "prop_ate_30s": 1.0
+      },
+      "latencia_t2_por_lote": {
+        "10": {
+          "n": 30,
+          "media": 9.246500000000001,
+          "mediana": 9.3915,
+          "p95": 9.911,
+          "maximo": 9.911,
+          "prop_ate_30s": 1.0
+        },
+        "25": {
+          "n": 75,
+          "media": 9.193760000000001,
+          "mediana": 8.849,
+          "p95": 10.145,
+          "maximo": 10.145,
+          "prop_ate_30s": 1.0
+        },
+        "50": {
+          "n": 150,
+          "media": 8.463266666666668,
+          "mediana": 7.654,
+          "p95": 10.12,
+          "maximo": 10.121,
+          "prop_ate_30s": 1.0
+        }
+      },
+      "taxa_sucesso_t2": {
+        "n": 255,
+        "confirmadas": 255,
+        "falhas": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "X": 0
+        },
+        "denominador": 255,
+        "taxa": 100.0
+      },
+      "taxa_por_lote": {
+        "10": 100.0,
+        "25": 100.0,
+        "50": 100.0
+      },
+      "custo": {
+        "coluna_gas": "gas_used",
+        "usd_por_funcao": {
+          "acceptOffer": 0.08802529101710957,
+          "approve": 0.025270638130669005,
+          "cancelOffer": 0.026368693334690763,
+          "createOffer": 0.18264896185253687
+        },
+        "gas_por_funcao": {
+          "acceptOffer": 446758.0,
+          "approve": 128257.0,
+          "cancelOffer": 133830.0,
+          "createOffer": 927005.0
+        },
+        "ciclos_completos": 30,
+        "ciclo_usd_medio": 0.2961056685073103,
+        "ciclo_gas_medio": 1502836.0
+      },
+      "complexidade": {
+        "versao": "solidity",
+        "m_total": 49
+      }
+    },
+    "fuji": {
+      "latencia_t1": {
+        "n": 30,
+        "media": 2.5953666666666666,
+        "mediana": 2.6445,
+        "p95": 3.0294999999999996,
+        "maximo": 3.131,
+        "prop_ate_30s": 1.0
+      },
+      "latencia_t2_por_lote": {
+        "10": {
+          "n": 30,
+          "media": 2.6379999999999995,
+          "mediana": 2.471,
+          "p95": 3.291,
+          "maximo": 3.291,
+          "prop_ate_30s": 1.0
+        },
+        "25": {
+          "n": 75,
+          "media": 2.70828,
+          "mediana": 2.403,
+          "p95": 3.384,
+          "maximo": 3.384,
+          "prop_ate_30s": 1.0
+        },
+        "50": {
+          "n": 150,
+          "media": 4.634000000000001,
+          "mediana": 3.494,
+          "p95": 4.078,
+          "maximo": 64.306,
+          "prop_ate_30s": 0.98
+        }
+      },
+      "taxa_sucesso_t2": {
+        "n": 255,
+        "confirmadas": 255,
+        "falhas": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "X": 0
+        },
+        "denominador": 255,
+        "taxa": 100.0
+      },
+      "taxa_por_lote": {
+        "10": 100.0,
+        "25": 100.0,
+        "50": 100.0
+      },
+      "custo": {
+        "coluna_gas": "gas_used",
+        "usd_por_funcao": {
+          "acceptOffer": 0.011012587535400215,
+          "approve": 0.0031283120931083846,
+          "cancelOffer": 0.0034978062788688395,
+          "createOffer": 0.014874588293546372
+        },
+        "gas_por_funcao": {
+          "acceptOffer": 163120.0,
+          "approve": 46337.0,
+          "cancelOffer": 51810.0,
+          "createOffer": 220324.5
+        },
+        "ciclos_completos": 30,
+        "ciclo_usd_medio": 0.029025108408346,
+        "ciclo_gas_medio": 429924.0
+      },
+      "complexidade": {
+        "versao": "solidity",
+        "m_total": 49
+      }
+    },
+    "monad": {
+      "latencia_t1": {
+        "n": 30,
+        "media": 0.9938666666666667,
+        "mediana": 0.987,
+        "p95": 1.5634499999999998,
+        "maximo": 1.74,
+        "prop_ate_30s": 1.0
+      },
+      "latencia_t2_por_lote": {
+        "10": {
+          "n": 30,
+          "media": 0.7662666666666665,
+          "mediana": 0.797,
+          "p95": 0.802,
+          "maximo": 0.802,
+          "prop_ate_30s": 1.0
+        },
+        "25": {
+          "n": 75,
+          "media": 1.05984,
+          "mediana": 1.036,
+          "p95": 1.596,
+          "maximo": 1.75,
+          "prop_ate_30s": 1.0
+        },
+        "50": {
+          "n": 150,
+          "media": 1.0309666666666666,
+          "mediana": 1.104,
+          "p95": 1.333,
+          "maximo": 1.333,
+          "prop_ate_30s": 1.0
+        }
+      },
+      "taxa_sucesso_t2": {
+        "n": 255,
+        "confirmadas": 255,
+        "falhas": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "X": 0
+        },
+        "denominador": 255,
+        "taxa": 100.0
+      },
+      "taxa_por_lote": {
+        "10": 100.0,
+        "25": 100.0,
+        "50": 100.0
+      },
+      "custo": {
+        "coluna_gas": "gas_limit",
+        "usd_por_funcao": {
+          "acceptOffer": 0.0006658140138282641,
+          "approve": 0.00014968482820172,
+          "cancelOffer": 0.000149737397168268,
+          "createOffer": 0.000606197092932235
+        },
+        "gas_por_funcao": {
+          "acceptOffer": 282441.4,
+          "approve": 63497.0,
+          "cancelOffer": 63519.3,
+          "createOffer": 257151.625
+        },
+        "ciclos_completos": 30,
+        "ciclo_usd_medio": 0.0014213300148800479,
+        "ciclo_gas_medio": 602934.8
+      },
+      "complexidade": {
+        "versao": "solidity",
+        "m_total": 49
+      }
+    }
+  }
+}
